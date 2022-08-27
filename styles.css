@@ -102,6 +102,7 @@ html, body {
     .header__links-toggled {
         display: flex;
         animation: hideMenu .3s ease-in-out 1;
+        will-change: auto;
         animation-fill-mode: both;
     }
 
@@ -109,6 +110,7 @@ html, body {
         display: flex;
         visibility: visible;
         animation: showMenu .3s ease-in-out 1;
+        will-change: auto;
         animation-fill-mode: both;
     }
 }
