@@ -16,6 +16,10 @@ html, body {
     height: 100%;
 }
 
+body { 
+    padding: 0 calc(20px - (100vw - 100%)) 0 0; 
+}
+
 .a11y-hidden {
     position: absolute;
     left: auto;
