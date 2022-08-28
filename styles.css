@@ -44,7 +44,6 @@ html, body {
         margin-bottom: 0;
         padding: 0 0 0 1.25rem;
         border-bottom: none;
-        justify-content: space-between;
     }
 }
 
@@ -61,7 +60,7 @@ html, body {
     display: none;
     width: 3.5rem;
     height: 100%;
-    /* margin: 0 0 0 auto; */
+    margin: 0 0 0 auto;
     padding: 0;
     background: 50% 50% no-repeat transparent url(assets/icon_list_m@1x.svg);
     border: none;
@@ -217,7 +216,7 @@ html, body {
 
 .section__select {
     display: none;
-    /* margin: 0 0 0 auto; */
+    margin: 0 0 0 auto;
     padding: 0.4375rem 1.9375rem .5rem 1rem;
     border: none;
     border-radius: 1.25rem;
@@ -229,9 +228,6 @@ html, body {
 }
 
 @media (max-width: 768px) {
-    .section__title {
-        justify-content: space-between;
-    }
     .section__select {
         display: block;
     }
